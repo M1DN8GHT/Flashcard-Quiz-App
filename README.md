@@ -1,3 +1,17 @@
+# I modified Ai-generated code to fit my project by deleting some of the code that was not needed. I also made files for the AI to use to add on to the code
+# AI has made fixing the code so it works very easy. I solved issues by checking the code and telling the AI to fix the problems.
+
+
+
+
+
+
+
+
+
+
+
+
 # Flashcard-Quiz-App
 # 2/13/2025
 # I'm goign to make a flashcard quiz app using Python and tkinter. Should I have the questions/answers in a csv or a json file? Which one do you prefer.
@@ -33,3 +47,16 @@
 # Make the edits in flashcards.json so that the main.py code will work (After I made the flashcards.json file, I told the AI to edit the neew file so it fixes the main.py code.)
 
 # Make sure the code displays a flashcard wiht a question on the front, there is a flip button that reveals the answers, there is a next and previous button so you can move through the flashcards, there is a shuffle function to randomize card order, and load questions & answers from a JSON file.
+
+# Make the flashcard text bigger and centered to the middle of the screen.
+
+# Make it so that the buttons are in a horizontal line with even space between each other.
+# main.py Modify the layout of the buttons to be in a horizontal line with even space between each other.
+
+# Make it so that when you start the code the question is displayed first
+# Modify the initialization to display the first question when the application starts.
+
+# Fix the code in flashcards.json so that when the code is started, the question is already displayed
+# Ensure the flashcards.json file contains valid questions and answers.
+
+# fix the code in flashcards.json or main.py (whichever one you need to edit) so that there are two buttons that are named "known" and "unknown" and when one is pressed based on the name it marks the flashcard as known or unknown.

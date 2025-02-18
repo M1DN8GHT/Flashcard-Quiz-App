@@ -19,8 +19,8 @@ class FlashcardQuizApp:
         self.current_question_index = -1
         self.showing_answer = False
 
-        self.question_label = tk.Label(root, text="", wraplength=400)
-        self.question_label.pack()
+        self.question_label = tk.Label(root, text="", wraplength=400, font=("Helvetica", 16), justify="center")
+        self.question_label.pack(expand=True)
 
         self.flip_button = tk.Button(root, text="Flip", command=self.flip_card)
         self.flip_button.pack()
@@ -33,6 +33,12 @@ class FlashcardQuizApp:
 
         self.shuffle_button = tk.Button(root, text="Shuffle", command=self.shuffle_cards)
         self.shuffle_button.pack()
+
+        self.known_button = tk.Button(root, text="Known", command=self.mark_known)
+        self.known_button.pack()
+
+        self.unknown_button = tk.Button(root, text="Unknown", command=self.mark_unknown)
+        self.unknown_button.pack()
 
     def load_questions(self):
         with open("flashcards.json") as file:
@@ -68,6 +74,14 @@ class FlashcardQuizApp:
         else:
             self.question_label.config(text=self.questions[self.current_question_index]["answer"])
         self.showing_answer = not self.showing_answer
+
+    def mark_known(self):
+        self.questions[self.current_question_index]["status"] = "known"
+        self.next_card()
+
+    def mark_unknown(self):
+        self.questions[self.current_question_index]["status"] = "unknown"
+        self.next_card()
 
 if __name__ == "__main__":
     root = tk.Tk()
