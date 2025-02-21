@@ -60,3 +60,4 @@
 # Ensure the flashcards.json file contains valid questions and answers.
 
 # fix the code in flashcards.json or main.py (whichever one you need to edit) so that there are two buttons that are named "known" and "unknown" and when one is pressed based on the name it marks the flashcard as known or unknown.
+# Add a Option to review only "unknown" flashcards, Quiz mode, Timer mode, Multiple choice options, Sound effects or color changes, Allow users to add/edit their own flashcards.
