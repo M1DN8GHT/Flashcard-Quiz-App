@@ -1,16 +1,5 @@
 # I modified Ai-generated code to fit my project by deleting some of the code that was not needed. I also made files for the AI to use to add on to the code
-# AI has made fixing the code so it works very easy. I solved issues by checking the code and telling the AI to fix the problems.
-
-
-
-
-
-
-
-
-
-
-
+# AI has made fixing the code so it works very easy. I solved issues by checking the code and telling the AI to check and fix specific parts of the code.
 
 # Flashcard-Quiz-App
 # 2/13/2025
